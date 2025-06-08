@@ -1,15 +1,20 @@
+> **Author**: Taylor Murray  
+> **Language**: Python 3.10  
+> **Tools**: Jupyter Notebook, Standard Python Libraries  
+> **Focus**: Cryptography, Classical Cipher Analysis, Algorithm Design
+
 # A Substitution Decryptor (Version 1.0)
 
 ## Motivation: 
 
 This project is motivated by Chapter 1 of Understanding Cryptography by **Christof Paar and Jan Pelzl**. 
 
-## Description:
+## What This Project Does:
 
-This project demonstrates how one can utilize basic frequency analysis and elementrary python code in decrypting messages  
+This project demonstrates how one can utilize basic frequency analysis and elementary python code in decrypting messages  
 that have been encrypted by a monoalphabetical substitution cipher. 
 
-### Concept Used
+## Concepts Used
 - Monoalphabetic substitution ciphers
 - Letter frequency statistics
 - Dictionary manipulation and mapping
@@ -78,7 +83,7 @@ The core of the project can be found in `substitution_decryptor.py`
 
 ## Usage Examples:
 
-Below is an example of an encrypted message example given in **Understanding Cryptography** by Christopf Paar and Jan Pelzl. 
+Below is an example of an encrypted message example given in **Understanding Cryptography** by Christof Paar and Jan Pelzl. 
 
 ``` python
 
