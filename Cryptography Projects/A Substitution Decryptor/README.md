@@ -12,7 +12,7 @@ This project is motivated by Chapter 1 of Understanding Cryptography by **Christ
 ## What This Project Does:
 
 This project demonstrates how one can utilize basic frequency analysis and elementary python code in decrypting messages  
-that have been encrypted by a monoalphabetical substitution cipher. 
+that have been encrypted by a monoalphabetic substitution cipher. 
 
 ### Why it Matters:
 
@@ -22,7 +22,7 @@ that have been encrypted by a monoalphabetical substitution cipher.
 ### To be Added:
 - An encryption function for educational testing 
 - A UI for ease of use
-- Visualization of letter frequencies using `mathlibplot`
+- Visualization of letter frequencies using `matlibplot`
 
 
 ## Concepts Used
@@ -32,10 +32,10 @@ that have been encrypted by a monoalphabetical substitution cipher.
 - Manual decryption refinement (realistic in practice)
 - Bijection enforcement for substitution keys
 
-### Monoalphabetical Substitution Ciphers:
+### monoalphabetic Substitution Ciphers:
 
-Monoalphabetical substitution ciphers are best described by example. Suppose you would like to send a message to your best friend.
-However, this friend has a nosy partner who likes reads his/hers private messages. To avoid your friends partner 
+monoalphabetic substitution ciphers are best described by example. Suppose you would like to send a message to your best friend.
+However, this friend has a nosy partner who likes reads their private messages. To avoid your friends partner 
 in reading messages between you and your friend, you both decide to encrypt messages by using the following key:
 
 |Plaintext|Ciphertext|Plaintext|Ciphertext|
@@ -67,8 +67,8 @@ plaintext.
 
 #### A Mathematical Description
 
-Another way to describe a monoalphabetical substitution cipher is through the language of mathematics:
-a monoalphabetical substitution cipher is a cipher whose key is a bijection whose domain and codomain is 
+Another way to describe a monoalphabetic substitution cipher is through the language of mathematics:
+a monoalphabetic substitution cipher is a cipher whose key is a bijection whose domain and codomain is 
 your alphabet of choice.
 
 ## Project Structure:
@@ -87,7 +87,7 @@ The core of the project can be found in `substitution_decryptor.py`
 1. Download substitution_decrypter.py
 2. Open the file in an IDE such as VS Code or Jupyter Notebooks.
 3. Run the code.
-4. Use the function `initial_possible_key` on a message you know to be encrypted by a monoalphabetical substitution cipher
+4. Use the function `initial_possible_key` on a message you know to be encrypted by a monoalphabetic substitution cipher
     - The function `initial_possible_key` creates a key for decryption based on frequency anlaysis.
 5. Use the function `try_possible_key` on the encrypted message and the return of `initial_possible_key` from step 4.
 6. Utilize the function `old_to_new_key` to change the decryption key as needed.
@@ -122,7 +122,7 @@ print(try_possible_key(message,key))
 
 Output:
 ``` output
-Decrypted Message: 
+Encrypted Message: 
 
 
  lrvmnir bpr sumvbwvr jx bpr lmiwv yjeryrkbi jx qmbm wi
@@ -142,7 +142,7 @@ wkbrusurbmbwjk w jxxru yt bprjuwri wk bpr pjsr bpmb bpr
 riirkvr jx jqwkmcmk qmumbr cwhh urymwk wkbmvb
 
 
-Key Applied to Decrypted Message: 
+Key Applied to Encrypted Message: 
 
 
 yecawse the fractnce iu the yasnc mijemeots iu bata ns
@@ -162,7 +162,8 @@ noterfretatnio n iuuer mg theirnes no the hife that the
 esseoce iu ibnoakao barate knll remano notact
 ```
 
-We use the old_to_new_key function to change "old_key".
+We use the old_to_new_key function to change "old_key" based on the output above. For example, the first word in the "decrypted" message looks like it should be "because".
+Hence, we should change "l" to "b" and 'n' to 'u'.
 
 ``` python
 
@@ -181,7 +182,7 @@ print(try_possible_key(message,key))
 Output:
 ``` output
 
-Decrypted Message: 
+Encrypted Message: 
 
 
  lrvmnir bpr sumvbwvr jx bpr lmiwv yjeryrkbi jx qmbm wi
@@ -201,7 +202,7 @@ wkbrusurbmbwjk w jxxru yt bprjuwri wk bpr pjsr bpmb bpr
 riirkvr jx jqwkmcmk qmumbr cwhh urymwk wkbmvb
 
 
-Key Applied to Decrypted Message: 
+Key Applied to Encrypted Message: 
 
 
 because the practice of the basic movements of kata is
