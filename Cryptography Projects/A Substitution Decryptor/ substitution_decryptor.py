@@ -148,7 +148,7 @@ def try_possible_key(mess,key):
             # avoids errors with /n or white space
             possible_decript_list.append(ch)
     possible_decript = empty_mess.join(possible_decript_list)
-    final_string = "Decrypted Message: \n\n\n " + mess + "\n\n\n" + "Key Applied to Decrypted Message: \n\n\n" + possible_decript
+    final_string = "Encrypted Message: \n\n\n " + mess + "\n\n\n" + "Key Applied to Encrypted Message: \n\n\n" + possible_decript
     return  final_string
 
 
