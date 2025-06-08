@@ -32,7 +32,7 @@ that have been encrypted by a monoalphabetic substitution cipher.
 - Manual decryption refinement (realistic in practice)
 - Bijection enforcement for substitution keys
 
-### monoalphabetic Substitution Ciphers:
+### Monoalphabetic Substitution Ciphers:
 
 monoalphabetic substitution ciphers are best described by example. Suppose you would like to send a message to your best friend.
 However, this friend has a nosy partner who likes reads their private messages. To avoid your friends partner 
