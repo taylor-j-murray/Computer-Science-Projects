@@ -1,4 +1,3 @@
-import numpy as np
 
 def letter_freq(mess : str, x):
     """Given a string and character, this function calulates the frequecy in which 
