@@ -14,6 +14,17 @@ This project is motivated by Chapter 1 of Understanding Cryptography by **Christ
 This project demonstrates how one can utilize basic frequency analysis and elementary python code in decrypting messages  
 that have been encrypted by a monoalphabetical substitution cipher. 
 
+### Why it Matters:
+
+- In a world where the development of AI is grouwing at a breakneck pace, information and data are the exceptionally valuable and should be protected against hostile adversaries.
+- Understanding how substitution ciphers of can be broken with moderate ease illustrates the necessity of developing stronger ciphers.
+
+### To be Added:
+- An encryption function for educational testing 
+- A UI for ease of use
+- Visualization of letter frequencies using `mathlibplot`
+
+
 ## Concepts Used
 - Monoalphabetic substitution ciphers
 - Letter frequency statistics
