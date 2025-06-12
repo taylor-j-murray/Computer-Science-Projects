@@ -1,3 +1,4 @@
+---This is a rough draft to undergo documentation in the near future---
 
 Xmat = (m,n) ->(
     rowIndex = for i from 1 to m list i;
