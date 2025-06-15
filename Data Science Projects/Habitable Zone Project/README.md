@@ -23,9 +23,9 @@ database indicating whether or not a given planet lies in the habitable zone (HZ
 ## Methodology (Using the Kopparapu Formulae):
 In the paper ['Habitable Zones Around Main-Sequence Stars: Dependence on Planetary Mass'](https://arxiv.org/pdf/1404.5292), Kopparapu and co-authors propose formulae in determining the habitable zones of stars depending on planetary mass. To do this, they use the equations
 
-$$S_{eff} = S_{eff \odot} + aT_* + bT_*^2 + cT_*^3 + dT_*^4,$$
+$$ S_{eff} = S_{eff \odot} + aT_* + bT_*^2 + cT_*^3 + dT_*^4 $$
 
-$$ D = \sqrt{\left( \frac{L/ L_\odot}{S_{eff}}\right)} $$
+$$ D = \sqrt{\left( \frac{L/ L_\odot}{S_{eff}}\right)} $$,
 
 where 
 
@@ -45,9 +45,9 @@ where
 | Runaway Greenhouse (to find minimal HZ distance in AU)| 0.1 | 0.99 | $1.029 \times 100^{-4}$| $1.404 \times 10^{-8}$ | $-7.418\times 10^{-12}$ | $-1.713\times 10^{-15}$|
 | Runaway Greenhouse (to find minimal HZ distance in AU) | 1.0 | 1.107| $1.332 \times 100^{-4}$| $1.58\times 10^{-8}$ | $-8.308 \times 10^{-12}$ | $-1.931\times 10^{-15}$|
 | Runaway Greenhouse (to find minimal HZ distance in AU)| 5.0 | 0.356 | $1.188\times 100^{-4}$| $1.707 \times 10^{-8}$ | $-8.398\times 10^{-12}$ | $-2.084\times 10^{-15}$|
-| Maximal Greenhouse (to find maximal HZ distance in AU)| 0.1 | 0.356 |  $6.171\times 10^{-5}$ |  $1.698 \times 10^{-9}$ | -3.198 \times 100^{-12}$ | $-5.575 \times 10^{-16}$ |
-| Maximal Greenhouse (to find maximal HZ distance in AU)| 1.0 | 0.356 |  $6.171\times 10^{-5}$ |  $1.698 \times 10^{-9}$ | -3.198 \times 100^{-12}$ | $-5.575 \times 10^{-16}$ |  
-| Maximal Greenhouse (to find maximal HZ distance in AU)| 5.0 | 0.356 |  $6.171\times 10^{-5}$ |  $1.698 \times 10^{-9}$ | -3.198 \times 100^{-12}$ | $-5.575 \times 10^{-16}$| 
+| Maximal Greenhouse (to find maximal HZ distance in AU)| 0.1 | 0.356 |  $6.171\times 10^{-5}$ |  $1.698 \times 10^{-9}$ | $-3.198 \times 100^{-12}$ | $-5.575 \times 10^{-16}$ |
+| Maximal Greenhouse (to find maximal HZ distance in AU)| 1.0 | 0.356 |  $6.171\times 10^{-5}$ |  $1.698 \times 10^{-9}$ | $-3.198 \times 100^{-12}$ | $-5.575 \times 10^{-16}$ |  
+| Maximal Greenhouse (to find maximal HZ distance in AU)| 5.0 | 0.356 |  $6.171\times 10^{-5}$ |  $1.698 \times 10^{-9}$ | $-3.198 \times 100^{-12}$ | $-5.575 \times 10^{-16}$| 
           
 
 
