@@ -75,7 +75,7 @@ To find the minimal HZ distance, we set
 * $c = -8.308 \times 10^{-12}$
 * $d = -1.931\times 10^{-15}$
 
-and calculate $ T_* = 1780 L$ and $S_{eff} = 1.05916$. Finally, we find that our minimal HZ distance is $D = 0.9885289428749514 AU$
+and calculate $ T_* = -1780 K$ and $S_{eff} = 1.05916$. Finally, we find that our minimal HZ distance is $D = 0.9885289428749514 AU$
 
 
 ## Project Structure:
@@ -111,7 +111,7 @@ Below are the functions used and defined in `habitablezone.py`
 
 * `MG_radius`: returns the maximum distance for the planet's (associated to this row) habitable zone with respect to its host star. 
 
-* `in_HZ`: indicates whether or not a planet is in its star systems habitable zone. **Takes into account the eccentricity of its orbit**.
+* `in_HZ`: returns a boolean whether indicating whether or not a planet is in its star systems habitable zone. **Takes into account the eccentricity of its orbit**.
 
 
 
