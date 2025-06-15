@@ -19,9 +19,9 @@ database indicating whether or not a given planet lies in the habitable zone (HZ
 
 
 ## Methodology (Using the Kopparapu Formulae):
-In the paper ['Habitable Zones Around Main-Sequence Stars: Dependence on Planetary Mass'](https://arxiv.org/pdf/1404.5292), Kopparapu and co-authors propose formulae in determining the habitable zones of stars depending on planetary mass. To do this, they use the equations    
+In the paper ['Habitable Zones Around Main-Sequence Stars: Dependence on Planetary Mass'](https://arxiv.org/pdf/1404.5292), Kopparapu and co-authors propose formulae in determining the habitable zones of stars depending on planetary mass. To do this, they use the equations \
 
-$$ S_{eff} = S_{eff \odot} + aT_* + bT_*^2 + cT_*^3 + dT_*^4 $$    
+$$ S_{eff} = S_{eff \odot} + aT_* + bT_*^2 + cT_*^3 + dT_*^4 $$    \
 
 $$ D = \sqrt{\left( \frac{L/ L_\odot}{S_{eff}}\right)} $$,
 
