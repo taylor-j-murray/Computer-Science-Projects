@@ -52,7 +52,7 @@ where
           
 
 
-**Important Note**: in [code](habitablezone.py) the author applies the following conventions
+**Important Note**: in `habitablezone.py` the author applies the following conventions
 
 * If a planet's mass is between 0.1 and 1.0 (not including the latter) Earth masses, we use the coefficients for 0.1 earth masses in Kopparapu Formula.
 * If a planet's mass is between 1.0 and 5.0 (not including the latter) Earth masses, we use the coefficients for 1 earth masses in Kopparapu Formula.
