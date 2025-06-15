@@ -45,8 +45,7 @@ where
 | Runaway Greenhouse (to find minimal HZ distance in AU)| 0.1 | 0.99 | $1.029 \times 100^{-4}$| $1.404 \times 10^{-8}$ | $-7.418\times 10^{-12}$ | $-1.713\times 10^{-15}$|
 | Runaway Greenhouse (to find minimal HZ distance in AU) | 1.0 | 1.107| $1.332 \times 100^{-4}$| $1.58\times 10^{-8}$ | $-8.308 \times 10^{-12}$ | $-1.931\times 10^{-15}$|
 | Runaway Greenhouse (to find minimal HZ distance in AU)| 5.0 | 0.356 | $1.188\times 100^{-4}$| $1.707 \times 10^{-8}$ | $-8.398\times 10^{-12}$ | $-2.084\times 10^{-15}$|
-
-| Maximal Greenhouse (to find maximal HZ distance in AU)| 0.1 | 0.356 |  $6.171\times 10^{-5}$ |  $1.698 \times 10^{-9}$ | -3.198 \times 100^{-12}$ | $-5.575 \times 10^{-16$} |
+| Maximal Greenhouse (to find maximal HZ distance in AU)| 0.1 | 0.356 |  $6.171\times 10^{-5}$ |  $1.698 \times 10^{-9}$ | -3.198 \times 100^{-12}$ | $-5.575 \times 10^{-16}$ |
 | Maximal Greenhouse (to find maximal HZ distance in AU)| 1.0 | 0.356 |  $6.171\times 10^{-5}$ |  $1.698 \times 10^{-9}$ | -3.198 \times 100^{-12}$ | $-5.575 \times 10^{-16}$ |  
 | Maximal Greenhouse (to find maximal HZ distance in AU)| 5.0 | 0.356 |  $6.171\times 10^{-5}$ |  $1.698 \times 10^{-9}$ | -3.198 \times 100^{-12}$ | $-5.575 \times 10^{-16}$| 
           
@@ -69,13 +68,13 @@ Suppose you have a planet P in a star system with the following attributes:
 
 To find the minimal HZ distance, we set
 
-* $S_{\eff \odot} = 1.107$
+* $S_{eff \odot} = 1.107$
 * $ a = 1.332 \times 100^{-4}$
 * $b = 1.58\times 10^{-8}$ 
 * $c = -8.308 \times 10^{-12}$
 * $d = -1.931\times 10^{-15}$
 
-and calculate $ T_* = 1780 L$ and $S_{\eff} = 1.05916$. Finally, we find that our minimal HZ distance is $D = 0.9885289428749514 AU$
+and calculate $ T_* = 1780 L$ and $S_{eff} = 1.05916$. Finally, we find that our minimal HZ distance is $D = 0.9885289428749514 AU$
 
 
 ## Project Structure:
