@@ -5,7 +5,7 @@
 
 # Exoplanets and the Habitable Zone of their Stars (Version 1.0)
 
-## What This Project Does:
+## Overview:
 
 Using a [database of known exoplanets](https://github.com/OpenExoplanetCatalogue/open_exoplanet_catalogue), licensed by MIT, we create a new
 database indicating whether or not a given planet lies in the habitable zone (HZ) of its star system (see the methodology below) **while taking into account the eccentricity** of the planet's orbit. Our new database includes new features whose values were used in determining the habitable zone of a planets star system.
