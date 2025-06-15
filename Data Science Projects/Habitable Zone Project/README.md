@@ -70,7 +70,7 @@ Suppose you have a planet P in a star system with the following attributes:
 To find the minimal HZ distance, we set
 
 * $S_{eff \odot} = 1.107$
-* $ a = 1.332 \times 100^{-4}$
+* $a = 1.332 \times 100^{-4}$
 * $b = 1.58\times 10^{-8}$ 
 * $c = -8.308 \times 10^{-12}$
 * $d = -1.931\times 10^{-15}$
